@@ -1,0 +1,19 @@
+# Entornos virtuales y cachés de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Metadatos de Jupyter
+.ipynb_checkpoints/
+
+# Datos
+data/raw/
+data/processed/
+
+# Artefactos serializados pesados (>50MB)
+# modelos_exportados/*.joblib
+
+# Variables de entorno
+.env
