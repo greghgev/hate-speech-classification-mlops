@@ -1,6 +1,6 @@
 # Proyecto de Clasificación Binaria: Del EDA al Despliegue
 
-Este repositorio documenta el ciclo de vida completo de un modelo de Machine Learning para clasificación binaria de mensajes de odio. El enfoque principal del proyecto es demostrar rigor analítico en el tratamiento de los datos, criterio en la evaluación de modelos y la aplicación de buenas prácticas de ingeniería orientadas a su futuro paso a producción.
+Este repositorio documenta el ciclo de vida completo de un modelo de Machine Learning para **clasificación binaria de mensajes de odio**. El enfoque principal del proyecto es demostrar rigor analítico en el tratamiento de los datos, criterio en la evaluación de modelos y la aplicación de buenas prácticas de ingeniería orientadas a su futuro paso a producción.
 
 ## Fases del Proyecto y Decisiones Clave
 
@@ -27,7 +27,7 @@ El proyecto tiene mentalidad de despliegue. He serializado con `joblib` el **Pip
 * `modelos_exportados/`: Contiene el artefacto final (`pipeline_produccion.joblib`) listo para inferencia.
 * *Nota: Los datasets originales no se incluyen en el repositorio por buenas prácticas de seguridad y control de peso.*
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 * **Manipulación y Análisis de Datos:** Pandas, NumPy.
 * **Preprocesamiento y Machine Learning:** Scikit-Learn (Pipelines, Transformers personalizados, Métricas de Evaluación), LightGBM (Gradient Boosting).
 * **Optimización de Hiperparámetros:** Optuna.
