@@ -18,4 +18,7 @@ data/processed/
 # Variables de entorno
 .env
 
+hate_speech_classification.ipynb
+
 TODO
+
