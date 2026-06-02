@@ -28,7 +28,8 @@ El proyecto tiene mentalidad de despliegue. Se ha serializado con `joblib` el **
     * `03_Ajuste_Explicabilidad_Serializacion.ipynb`: Optimización bayesiana con Optuna, auditoría de explicabilidad con SHAP y empaquetado del artefacto con Joblib.
 * `src/`: Módulos de Python (`.py`). Contiene la lógica encapsulada (ej. funciones de carga y evaluación) para mantener el notebook limpio.
 * `modelos_exportados/`: Contiene el artefacto final (`pipeline_produccion.joblib`) listo para inferencia.
-* *Nota: Los datasets originales no se incluyen en el repositorio por buenas prácticas de seguridad y control de peso.*
+
+*Nota: Los datasets originales no se incluyen en el repositorio por buenas prácticas de seguridad y control de peso.*
 
 ## Stack Tecnológico
 * **Manipulación y Análisis de Datos:** Pandas, NumPy.
